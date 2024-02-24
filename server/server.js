@@ -5,7 +5,7 @@ app.use(express.json());
 require("dotenv").config();
 const dbConfig = require("./config/dbConfig");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 
 const usersRoute = require("./routes/usersRoute");
 const productsRoute = require("./routes/productsRoute");
