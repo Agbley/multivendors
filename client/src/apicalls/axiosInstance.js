@@ -12,7 +12,7 @@ const getToken = () => {
 };
 
 export const axiosInstance = axios.create({
-  // baseURL: "https://multivendors.onrender.com", // Set your base URL here
+  baseURL: "https://multivendors.onrender.com", // Set your base URL here
   headers: {
     authorization: `Bearer ${getToken()}`, // Dynamically get token
   },
